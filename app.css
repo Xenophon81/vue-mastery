@@ -1,0 +1,52 @@
+body{
+    background-color: whitesmoke;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.product{
+    max-width: 500px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 auto;
+    background-color: white;
+    border: 1px solid #666;
+}
+
+.product-image img{
+    width: 100%;
+    height: auto;
+}
+
+.product-info{
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+button{
+    background-color: #46AB7A;
+    padding: 0.2rem 1rem;
+    cursor: pointer;
+    border: none;
+    font-size: 1rem;
+    margin-top: 5px;
+}
+
+.card{
+    border: 1px solid #666;
+    padding: 1rem;
+    border: 1px solid red;
+}
+
+.color-box{
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+}
+
+.disabledButton{
+    background-color: #d8d8d8;
+}
+
+.linethrough{
+    text-decoration: line-through;
+}
